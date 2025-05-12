@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../nanoProcessor.srcs/sources_1/new/bit3_Adder.vhd" \
+"../../../../nanoProcessor.srcs/sim_1/new/TB_bit3_Adder.vhd" \
+
+# Do not sort compile order
+nosort

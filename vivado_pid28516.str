@@ -1,0 +1,397 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 28516
+License: Customer
+
+Current time: 	Mon May 12 18:08:31 IST 2025
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 29 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	nadee
+User home directory: C:/Users/nadee
+User working directory: C:/Users/nadee/Desktop/nanoProcessor
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.1
+RDI_DATADIR: D:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/nadee/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/nadee/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/nadee/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/nadee/Desktop/nanoProcessor/vivado.log
+Vivado journal file location: 	C:/Users/nadee/Desktop/nanoProcessor/vivado.jou
+Engine tmp dir: 	C:/Users/nadee/Desktop/nanoProcessor/.Xil/Vivado-28516-NadeeshaNJ
+
+GUI allocated memory:	148 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 546 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 66 MB (+66359kb) [00:00:10]
+// [Engine Memory]: 511 MB (+383990kb) [00:00:10]
+// Opening Vivado Project: C:\Users\nadee\Desktop\nanoProcessor\nanoProcessor.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Lab/nanoProcessor' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 546 MB (+10572kb) [00:00:14]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 593 MB (+20086kb) [00:00:15]
+// [GUI Memory]: 69 MB (+139kb) [00:00:16]
+// [GUI Memory]: 74 MB (+986kb) [00:00:17]
+// [Engine Memory]: 625 MB (+2190kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 40 MB. Current time: 5/12/25 6:08:36 PM IST
+// Project name: nanoProcessor; location: C:/Users/nadee/Desktop/nanoProcessor; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 798.988 ; gain = 109.250 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 205 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), Slow_Clk_0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 653 MB. GUI used memory: 41 MB. Current time: 5/12/25 6:12:13 PM IST
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 15); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 16); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Instruction_Decoder(Behavioral) (TB_Instruction_Decoder.vhd)]", 18); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Instruction_Decoder(Behavioral) (TB_Instruction_Decoder.vhd)]", 18); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_bit3_Adder(Behavioral) (TB_bit3_Adder.vhd)]", 19); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_bit3_Adder(Behavioral) (TB_bit3_Adder.vhd)]", 19); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_bit4_Add_Sub_Unit(Behavioral) (TB_bit4_Add_Sub_Unit.vhd)]", 20); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_bit4_Add_Sub_Unit(Behavioral) (TB_bit4_Add_Sub_Unit.vhd)]", 20); // B (D, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TB_Nano_Processor' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj TB_Nano_Processor_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot TB_Nano_Processor_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_Nano_Processor_behav -key {Behavioral:sim_1:Functional:TB_Nano_Processor} -tclbatch {TB_Nano_Processor.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [Engine Memory]: 660 MB (+4875kb) [00:04:29]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [GUI Memory]: 79 MB (+2199kb) [00:04:30]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 673 MB. GUI used memory: 48 MB. Current time: 5/12/25 6:12:49 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source TB_Nano_Processor.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Nano_Processor_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 838.809 ; gain = 22.180 
+// 'd' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (ch): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// [GUI Memory]: 89 MB (+6056kb) [00:04:41]
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Mon May 12 18:13:00 2025] Launched synth_1... Run output will be captured here: C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.runs/synth_1/runme.log [Mon May 12 18:13:00 2025] Launched impl_1... Run output will be captured here: C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 145 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (ch):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TB_Nano_Processor' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj TB_Nano_Processor_vhdl.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 2ee2a8ca29e346d1b7d85f00cd73aaff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nano_Processor_behav xil_defaultlib.TB_Nano_Processor -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_Nano_Processor_behav -key {Behavioral:sim_1:Functional:TB_Nano_Processor} -tclbatch {TB_Nano_Processor.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 47 MB. Current time: 5/12/25 6:15:38 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source TB_Nano_Processor.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Nano_Processor_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 53 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 47 MB. Current time: 5/12/25 6:16:32 PM IST
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, anode[3:0]]", 4); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, S_7seg[6:0]]", 3); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 62 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 47 MB. Current time: 5/12/25 6:17:41 PM IST
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, LED[3:0]]", 2); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 47 MB. Current time: 5/12/25 6:18:11 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 47 MB. Current time: 5/12/25 6:18:18 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 47 MB. Current time: 5/12/25 6:24:31 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 53 MB. Current time: 5/12/25 6:25:14 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 53 MB. Current time: 5/12/25 6:25:17 PM IST
+// Elapsed time: 452 seconds
+floatView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // aw (aE, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// RDIResource.RDIViews_WAVEFORM_VIEWER: Untitled 2: float view
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// [GUI Memory]: 95 MB (+1363kb) [00:17:02]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 53 MB. Current time: 5/12/25 6:25:21 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 53 MB. Current time: 5/12/25 6:25:22 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 53 MB. Current time: 5/12/25 6:25:22 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 53 MB. Current time: 5/12/25 6:25:23 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 681 MB. GUI used memory: 53 MB. Current time: 5/12/25 6:25:23 PM IST
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// RDIResource.RDIViews_WAVEFORM_VIEWER: Untitled 2: close view
+// Elapsed time: 20 seconds
+closeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // aw (aE, aG)
+dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // aw (aE, aG)
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // w

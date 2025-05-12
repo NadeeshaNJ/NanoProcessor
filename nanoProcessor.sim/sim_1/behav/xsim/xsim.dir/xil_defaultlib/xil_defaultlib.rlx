@@ -1,0 +1,23 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sim_1/new/TB_Nano_Processor.vhd,1747053472,vhdl,,,,tb_nano_processor,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd,1747053473,vhdl,,,,instruction_decoder,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/LUT _11_7.vhd,1747053473,vhdl,,,,lut_11_7,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_2_to_3.vhd,1747053473,vhdl,,,,mux_2_to_3,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_2_to_4.vhd,1747053473,vhdl,,,,mux_2_to_4,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_8_to_4.vhd,1747053473,vhdl,,,,mux_8_to_4,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/NanoProcessor.vhd,1747053473,vhdl,,,,nanoprocessor,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/ProgramCounter.vhd,1747053473,vhdl,,,,programcounter,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Program_ROM.vhd,1747053473,vhdl,,,,program_rom,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Register_Bank.vhd,1747053473,vhdl,,,,register_bank,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/bit3_Adder.vhd,1747053472,vhdl,,,,bit3_adder,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/bit4_Add_Sub_Unit.vhd,1747053473,vhdl,,,,bit4_add_sub_unit,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Decoder_2_to_4.vhd,1747053473,vhdl,,,,decoder_2_to_4,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Decoder_3_to_8.vhd,1747053473,vhdl,,,,decoder_3_to_8,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/FA.vhd,1747053473,vhdl,,,,fa,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/HA.vhd,1747053473,vhdl,,,,ha,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Reg.vhd,1747053473,vhdl,,,,reg,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Reg_types.vhd,1747053473,vhdl,C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/NanoProcessor.vhd;C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Register_Bank.vhd,,,reg_types,,,,,,,,
+C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Slow_Clk.vhd,1747053473,vhdl,,,,slow_clk,,,,,,,,
