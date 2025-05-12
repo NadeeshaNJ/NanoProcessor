@@ -5,6 +5,7 @@ use work.Reg_types.all;
 
 entity NanoProcessor is
     Port ( Clk : in STD_LOGIC;
+           change_program : in STD_LOGIC;
            Reset : in STD_LOGIC;
            LED : out STD_LOGIC_VECTOR (3 downto 0);
            S_7seg : out STD_LOGIC_VECTOR (6 downto 0);
@@ -29,6 +30,7 @@ architecture Behavioral of NanoProcessor is
     
     component Program_ROM is
         Port ( address : in STD_LOGIC_VECTOR (2 downto 0);
+               change_program : in STD_LOGIC;
                data : out STD_LOGIC_VECTOR (11 downto 0));
     end component;
     
@@ -131,6 +133,7 @@ begin
       
     Program_ROM_0 : Program_ROM
         Port map ( address => pc_out,
+                   change_program => change_program,
                    data => Instruction_Bus);
                    
     Instruction_Decoder_0 : Instruction_Decoder

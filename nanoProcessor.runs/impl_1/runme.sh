@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.runs/impl_1'
+HD_PWD='D:/Github repository/NanoProcessor/nanoProcessor.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -69,12 +69,12 @@ set rc [catch {
   set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.cache/wt [current_project]
-  set_property parent.project_path C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.xpr [current_project]
-  set_property ip_output_repo C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.cache/ip [current_project]
+  set_property webtalk.parent_dir {D:/Github repository/NanoProcessor/nanoProcessor.cache/wt} [current_project]
+  set_property parent.project_path {D:/Github repository/NanoProcessor/nanoProcessor.xpr} [current_project]
+  set_property ip_output_repo {{D:/Github repository/NanoProcessor/nanoProcessor.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.runs/synth_1/NanoProcessor.dcp
-  read_xdc C:/Users/nadee/Desktop/nanoProcessor/Basys3Labs.xdc
+  add_files -quiet {{D:/Github repository/NanoProcessor/nanoProcessor.runs/synth_1/NanoProcessor.dcp}}
+  read_xdc {{D:/Github repository/NanoProcessor/Basys3Labs.xdc}}
   link_design -top NanoProcessor -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]
@@ -147,6 +147,24 @@ if {$rc} {
   return -code error $RESULT
 } else {
   end_step route_design
+  unset ACTIVE_STEP 
+}
+
+start_step write_bitstream
+set ACTIVE_STEP write_bitstream
+set rc [catch {
+  create_msg_db write_bitstream.pb
+  catch { write_mem_info -force NanoProcessor.mmi }
+  write_bitstream -force NanoProcessor.bit 
+  catch {write_debug_probes -quiet -force NanoProcessor}
+  catch {file copy -force NanoProcessor.ltx debug_nets.ltx}
+  close_msg_db -file write_bitstream.pb
+} RESULT]
+if {$rc} {
+  step_failed write_bitstream
+  return -code error $RESULT
+} else {
+  end_step write_bitstream
   unset ACTIVE_STEP 
 }
 

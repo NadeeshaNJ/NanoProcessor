@@ -21,32 +21,32 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.cache/wt [current_project]
-set_property parent.project_path C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.xpr [current_project]
+set_property webtalk.parent_dir {D:/Github repository/NanoProcessor/nanoProcessor.cache/wt} [current_project]
+set_property parent.project_path {D:/Github repository/NanoProcessor/nanoProcessor.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
-set_property ip_output_repo c:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.cache/ip [current_project]
+set_property ip_output_repo {d:/Github repository/NanoProcessor/nanoProcessor.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Decoder_2_to_4.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Decoder_3_to_8.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/FA.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/HA.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd
-  {C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/LUT _11_7.vhd}
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_2_to_3.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_2_to_4.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_8_to_4.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Reg_types.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/ProgramCounter.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Program_ROM.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Reg.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/Register_Bank.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Slow_Clk.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/bit3_Adder.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/bit4_Add_Sub_Unit.vhd
-  C:/Users/nadee/Desktop/nanoProcessor/nanoProcessor.srcs/sources_1/new/NanoProcessor.vhd
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Decoder_2_to_4.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Decoder_3_to_8.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/FA.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/HA.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/Instruction_Decoder.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/LUT _11_7.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_2_to_3.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_2_to_4.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/Mux_8_to_4.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Reg_types.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/ProgramCounter.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/Program_ROM.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Reg.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/Register_Bank.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Slow_Clk.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/bit3_Adder.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/bit4_Add_Sub_Unit.vhd}
+  {D:/Github repository/NanoProcessor/nanoProcessor.srcs/sources_1/new/NanoProcessor.vhd}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -56,8 +56,8 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/nadee/Desktop/nanoProcessor/Basys3Labs.xdc
-set_property used_in_implementation false [get_files C:/Users/nadee/Desktop/nanoProcessor/Basys3Labs.xdc]
+read_xdc {{D:/Github repository/NanoProcessor/Basys3Labs.xdc}}
+set_property used_in_implementation false [get_files {{D:/Github repository/NanoProcessor/Basys3Labs.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 0
 close [open __synthesis_is_running__ w]
