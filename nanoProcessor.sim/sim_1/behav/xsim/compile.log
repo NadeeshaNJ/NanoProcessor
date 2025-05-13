@@ -1,2 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Github repository/NanoProcessor/nanoProcessor.srcs/sim_1/new/TB_Nano_Processor.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity TB_Nano_Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab/NanoProcessor_1/NanoProcessor/nanoProcessor.srcs/sources_Components/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Lab/NanoProcessor_1/NanoProcessor/nanoProcessor.srcs/sim_1/new/TB_Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Slow_Clock

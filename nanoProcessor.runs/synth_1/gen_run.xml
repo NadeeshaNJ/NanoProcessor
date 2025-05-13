@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1747075326">
   <File Type="PA-TCL" Name="NanoProcessor.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="NanoProcessor_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="NanoProcessor_reports.tcl"/>
   <File Type="RDS-RDS" Name="NanoProcessor.vds"/>
   <File Type="RDS-UTIL" Name="NanoProcessor_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="NanoProcessor_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="NanoProcessor.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="NanoProcessor_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="NanoProcessor_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_Components/imports/new/Decoder_2_to_4.vhd">
