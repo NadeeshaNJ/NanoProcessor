@@ -2,3 +2,6 @@ Running: xsim.dir/TB_Slow_Clock_behav/xsimk.exe -simmode gui -wdb TB_Slow_Clock_
 Design successfully loaded
 Design Loading Memory Usage: 8332 KB (Peak: 8332 KB)
 Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 8940 KB (Peak: 8940 KB)
+Simulation CPU Usage: 62 ms
