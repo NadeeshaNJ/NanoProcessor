@@ -2,55 +2,13 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon May 12 19:34:12 2025
-# Process ID: 34744
-# Current directory: D:/Github repository/NanoProcessor
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32364 D:\Github repository\NanoProcessor\nanoProcessor.xpr
-# Log file: D:/Github repository/NanoProcessor/vivado.log
-# Journal file: D:/Github repository/NanoProcessor\vivado.jou
+# Start of session at: Tue May 13 15:13:48 2025
+# Process ID: 10236
+# Current directory: D:/Lab/NanoProcessor_1/NanoProcessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12088 D:\Lab\NanoProcessor_1\NanoProcessor\nanoProcessor.xpr
+# Log file: D:/Lab/NanoProcessor_1/NanoProcessor/vivado.log
+# Journal file: D:/Lab/NanoProcessor_1/NanoProcessor\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {D:/Github repository/NanoProcessor/nanoProcessor.xpr}
+open_project D:/Lab/NanoProcessor_1/NanoProcessor/nanoProcessor.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-source TB_Nano_Processor.tcl
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-reset_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-reset_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-reset_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-close_sim
-launch_simulation
-source TB_Nano_Processor.tcl
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-close_sim
