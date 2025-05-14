@@ -10,7 +10,7 @@ end Slow_Clk;
 
 architecture Behavioral of Slow_Clk is
 
-signal count : unsigned(1 downto 0) := "00";
+signal count : unsigned(25 downto 0) := "00000000000000000000000000";
 signal clk_status : std_logic :='0'; 
 begin
     
@@ -18,9 +18,9 @@ begin
     process (clk_in) begin
         if(rising_edge(Clk_in)) then
             count <= count + 1;
-            if(count = "11") then
+            if(count = "10111110101111000010000000") then
                 clk_status <= not clk_status;
-                count <= "00";
+                count <= "00000000000000000000000000";
             end if;
         end if;
     end process;
