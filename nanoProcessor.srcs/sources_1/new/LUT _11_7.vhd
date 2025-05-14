@@ -21,14 +21,7 @@ architecture Behavioral of LUT_11_7 is
        "0000010", -- 6
        "1111000", -- 7
        "0000000", -- 8
-       --"0010000", -- 9
-       --"0001000", -- A
-       --"0000011", -- b
-       --"1000110", -- C
-       --"0100001", -- d
-       --"0000110", -- E
-       --"0001110", -- F
-       "0111111",  -- 16: minus sign '-'
+       "0111111", -- minus sign '-'
        "1111111"  -- shows nothing
    );
    signal count : integer := 1;
@@ -44,7 +37,7 @@ begin
    begin
        if rising_edge(clk) then
            count <= count +1;
-           if(count = 5) then
+           if(count = 500000) then
                clk_status<= not clk_status;
                Clk_out <= clk_status;
                count <=1;
