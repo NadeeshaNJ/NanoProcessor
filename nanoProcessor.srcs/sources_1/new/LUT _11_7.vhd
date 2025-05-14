@@ -37,7 +37,7 @@ begin
    begin
        if rising_edge(clk) then
            count <= count +1;
-           if(count = 500000) then
+           if(count = 5) then
                clk_status<= not clk_status;
                Clk_out <= clk_status;
                count <=1;

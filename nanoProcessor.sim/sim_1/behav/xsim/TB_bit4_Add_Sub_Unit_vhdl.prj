@@ -1,7 +1,7 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../../Lab3/Lab3.srcs/sources_1/new/FA.vhd" \
-"../../../../../Lab3/Lab3.srcs/sources_1/new/HA.vhd" \
+"../../../../nanoProcessor.srcs/sources_Components/imports/new/FA.vhd" \
+"../../../../nanoProcessor.srcs/sources_Components/imports/new/HA.vhd" \
 "../../../../nanoProcessor.srcs/sources_1/new/bit4_Add_Sub_Unit.vhd" \
 "../../../../nanoProcessor.srcs/sim_1/new/TB_bit4_Add_Sub_Unit.vhd" \
 
