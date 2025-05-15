@@ -29,7 +29,7 @@ architecture Behavioral of Program_ROM is
             "001111010000", --ADD R7,R5 => R7=1 
             "001111100000", --ADD R7,R6 => R7=4 
             "011110000000", --NEG R7    => R7=-4
-            "110000000000"  --JZR R0,0  => GOES TO 0th instruction if R0==0 which is not
+            "110000000000"  --JZR R0,0  => GOES TO 0th instruction if R0==0 which is
                     );
 begin
     process(change_program,address)

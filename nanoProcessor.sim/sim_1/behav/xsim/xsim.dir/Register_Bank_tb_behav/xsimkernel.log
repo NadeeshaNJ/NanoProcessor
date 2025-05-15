@@ -2,3 +2,6 @@ Running: xsim.dir/Register_Bank_tb_behav/xsimk.exe -simmode gui -wdb Register_Ba
 Design successfully loaded
 Design Loading Memory Usage: 7668 KB (Peak: 7668 KB)
 Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 8204 KB (Peak: 8204 KB)
+Simulation CPU Usage: 61 ms
