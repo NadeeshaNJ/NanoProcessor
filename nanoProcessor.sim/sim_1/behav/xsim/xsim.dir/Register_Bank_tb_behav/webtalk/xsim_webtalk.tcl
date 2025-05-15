@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir D:/Github repository/NanoProcessor/nanoProcessor.sim/sim_1/behav/xsim/xsim.dir/Register_Bank_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu May 15 11:43:37 2025" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Thu May 15 15:00:17 2025" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2188600" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "33f2bbb6-ad18-4cea-aa6f-54fb5bd47a18" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "2ee2a8ca29e346d1b7d85f00cd73aaff" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "3" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "16" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz" -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "27" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "17" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.56_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "54124_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2279435424 -regid "" -xml D:/Github repository/NanoProcessor/nanoProcessor.sim/sim_1/behav/xsim/xsim.dir/Register_Bank_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/Github repository/NanoProcessor/nanoProcessor.sim/sim_1/behav/xsim/xsim.dir/Register_Bank_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/Github repository/NanoProcessor/nanoProcessor.sim/sim_1/behav/xsim/xsim.dir/Register_Bank_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.33_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "54108_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 4286391782 -regid "" -xml D:/Github repository/NanoProcessor/nanoProcessor.sim/sim_1/behav/xsim/xsim.dir/Register_Bank_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/Github repository/NanoProcessor/nanoProcessor.sim/sim_1/behav/xsim/xsim.dir/Register_Bank_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/Github repository/NanoProcessor/nanoProcessor.sim/sim_1/behav/xsim/xsim.dir/Register_Bank_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

@@ -70,10 +70,12 @@ begin
             Clk <= '1';
             wait for 5ns;
         end process;
-    
+ 
     process begin
+        
         input <= "1101";        
         Reg_EN <= "001";
+        
         WAIT for 100ns;
         
         input <= "1111";        

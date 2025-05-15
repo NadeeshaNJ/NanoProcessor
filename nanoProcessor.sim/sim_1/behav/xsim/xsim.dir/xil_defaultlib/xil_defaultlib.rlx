@@ -2,7 +2,7 @@
 2018.1
 Apr  4 2018
 19:30:32
-D:/Github repository/NanoProcessor/nanoProcessor.srcs/sim_1/imports/new/Register_Bank_tb.vhd,1747289608,vhdl,,,,register_bank_tb,,,,,,,,
+D:/Github repository/NanoProcessor/nanoProcessor.srcs/sim_1/imports/new/Register_Bank_tb.vhd,1747301412,vhdl,,,,register_bank_tb,,,,,,,,
 D:/Github repository/NanoProcessor/nanoProcessor.srcs/sim_1/new/TB_Instruction_Decoder.vhd,1747053472,vhdl,,,,tb_instruction_decoder,,,,,,,,
 D:/Github repository/NanoProcessor/nanoProcessor.srcs/sim_1/new/TB_Nano_Processor.vhd,1747075256,vhdl,,,,tb_nano_processor,,,,,,,,
 D:/Github repository/NanoProcessor/nanoProcessor.srcs/sim_1/new/TB_Slow_Clk.vhd,1747194183,vhdl,,,,tb_slow_clock,,,,,,,,
