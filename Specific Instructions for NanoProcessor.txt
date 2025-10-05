@@ -1,5 +1,0 @@
-1. Reset button is assign to the BTNC push button in the Basys3 board
-2. Slow clock is set to 3 clock cycles so the program will immediately show the final result as the calculation happens immediately
-3. To slow down the program counter slow clock count cycles should be increase to somewhere around 50000000 which should be coded in binary as we tried to reduced the resource utilization as much as we can. The binary value for slow down clock is commented in the code. If required remove the comments and upload the program
-5. NanoProcessor code with additional features have an extra program and also capable of showing negative values. To change the program we added a switch which is assign to sw[0] that will run the second code when switched.
-6. Second program in the ROM is there to show the ability to display negative values in the 7 segment display(We used two 7segment displays to show the additional minus sign for negative values)
